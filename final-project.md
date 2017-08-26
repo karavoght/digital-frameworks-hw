@@ -1,23 +1,29 @@
-#Heading Into August Recess: How Productive Has the 115th Congress Been?
+**Heading Into August Recess: How Productive Has the 115th Congress Been?**
 
 Since the passage of the 1970 Legislative Reorganization Act, congressmen and senators have traditionally left Washington for the month of August for the most sizeable break in the congressional calendar. Like the first 100 days of a presidency, the first August recess presents a milestone for legislative productivity—in an average session of Congress, over 42 percent of an entire session’s legislation will be introduced before the first August recess. In a moment like this one when the House, Senate, and executive branch are all party-aligned, productivity would seem paramount. As the 115th Congress hits this milestone, how to they stack up to the similarly well-positioned Congresses that have come before?
 
 First, a look at how often this event which, on its face, seems so serendipitous, actually happens. Over the last 20 years, finding alignment between each house of Congress has been a relatively frequent occurrence; the only two sessions of Congress that haven’t aligned with one another. With a new Congress every two years, and a new president only once every four, however, alignment across all three proves itself as a more rare occasion. Only the 108th (Republican, 2003-2005), 109th (Republican, 2005-2007), 111th (Democrat, 2009-2011), and the 115th (Republican 2017-2019) have been aligned: twice during the Bush administration, once during the Obama administration, and, so far, once during the Trump administration. This means that the opportunities for a fully partisan effort have been few and far between, and members of the majority party are incentivized to work quickly to get their agenda passed.
 
- 
-Figure 1: How deeply partisan each Congress was in a particular direction, 106th - 115th (House, left; Senate, right).
+![Figure1 1](https://lh3.googleusercontent.com/H3OvXcxAntYzD05EQNaItLumwTBThHu70j5NP9fzDvzHN___rt3vgthxDdZ6P_1IsXMIjhDbH1CTqHMtnI8A41KAu4UPjyY3xzDwadupu_kh3E-4qsjx5FZbxKT7S7JSXOpSxxoKVQ)
+
+*Figure 1: How deeply partisan each Congress was in a particular direction, 106th - 115th (House, left; Senate, right).*
 
 Does a well-aligned Congress and presidency even matter? Does it translate into the productivity that every pundit predicts it will? As it turns out, just a little bit. On the whole, Congresses that are aligned with the presidency turn more bills into law: The 108th, 109th, and 11th, which created, respectively, 504, 483, and 385 laws, passed more bills into law than their unaligned counterparts (save for the 106th Congress, which passed more than all of them—604—and the 107th Congress, which passed 385). As a percentage of legislation passed, those Congresses aligned with presidencies fare better. Over the last 20 years, Congresses have introduced 114,132 pieces of legislation and have passed 3,783 laws, with an overall passage rate of 3.3 percent. Those Congresses that share partisanship with their president, on the other hand, only fare slightly better. Excluding the current Congress, the aligned Congresses over the last 20 years have introduced 37,416 pieces of legislation and passed 1,372 laws, seeing an overall success rate of just 3.6 percent.
  
-Figure 2: Legislation introduced and passed in each Congress, 106th-115th.
+![Figure2](https://lh3.googleusercontent.com/eu-yYzcYLp8wLEiezSVxzeP0ZEfzDSMR4ccuvX4kCac8dzH2ziI2P47aMoe3iUQ8ahoUN1H1dEsLCLFersBZo2mvdB6ijYNIyDYqN0vYF52viBT7Bu_MFHRnT6UskGDHQdX3iT9Vpg)
+
+*Figure 2: Legislation introduced and passed in each Congress, 106th-115th.*
 
 By comparison, the 115th Congress, heading into its ninth month, would seem to lag behind the success of the others: As of this writing, it has introduced 6,413 bills, 55 of which have become an enacted law, leaving it with an overall success rate of just 1 percent. But that early percentage isn’t an indicator of a Congress’s overall success. Of all of the legislation introduced during a session of Congress, 66 percent is introduced in the first session, and around 52 percent of it is introduced by August recess. At the same time, on average, only about 13.2 percent of all of the legislation that Congress will eventually pass is passed before the August recess—almost half of the laws, 48 percent, will be passed a full year from now, in the second half of the second session.
 
-Figure 3: Percentage of bills introduced each month during a two-year congressional term.
+
+![Figure3](https://lh3.googleusercontent.com/cPZDHENbB4Vn9fRStGpi1ZHmgx8BsfzKNcA89srUThUC8lgYDl37NpvplV4zKo2nNJDBb1SToB5dacht1Xq77bFyvPjNoPCjj03EwJbaW6wIwBi2RBiOoHRFHfOP_n6EiXR-42z7Vg)
+
+*Figure 3: Percentage of bills introduced each month during a two-year congressional term.*
 
 The bottom line: While it’s tempting to call President Trump’s legislative agenda a flop, it’s really too soon to call. And the 115th Congress will have ample opportunity to prove that narrative wrong when they return to Congress in September to a packed legislative agenda that will require their immediate attention. On September 30, several major programs expire, including the National Flood Insurance Program, the Children’s Health Insurance Program and the Federal Perkins Loan Program. On the next day, October 1, the government’s next fiscal year begins, which means Congress will also have to have passed legislation to fund it. There are also several deadlines at the end of the year, like particular provisions in the Foreign Intelligence Surveillance Act, set to expire at the conclusion of 2017. So, if an aligned Congress proves helpful, this Congress is certainly going to need the help.
 
-Sources: Politico Pro Legislative Compass, United States Senate 
+*Sources: Politico Pro Legislative Compass, United States Senate* 
 
-Project Analysis:
+**Project Analysis:**
 This was a pretty straightforward project. All I had to do was pull individual bill data for each Congress and compare standard passage statistics between them. I used Politico Pro’s Legislative Compass for my data pull because it exported straight into a CSV, which spared me the translation from JSON that the ProPublica tool would have required (though I am very grateful to Derek Willis for replying to my sad pleas for help as I was teaching myself how to use ProPublica’s Congress API). From that point forward, I did simple Excel manipulation—how many bills passed? How many were introduced? These slices and dices required just the most rudimentary of Excel abilities, mostly summing and finding percentages. The only really unwieldy part was in keeping so many records together in one spreadsheet (also, scary: pulling and cleaning data can take a long time.) I hit a small snag as I tried to compare a Congress in session to the Congresses gone by, since the bill statuses didn’t align across them. For help, I leaned on the GovTrack.us parlance for describing bill status and was able to map it onto Politico’s designations.  In the end, though, this was a great project that yielded a lot of information, and I’m glad to have had the opportunity to have this story (which was initially a failed POLITICO story—I wasn’t able to get it together in time), turn into something productive.
